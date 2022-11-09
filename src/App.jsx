@@ -12,7 +12,8 @@ function App() {
     <div className="App">
       <Navbar/>
       <Routes>
-        <Route path= "" element={<Home />}>/</Route>
+        {/* <Route path= "" element={<Home />}>/</Route> */}
+        { <Route path= "" element={<Home />}>/</Route> }
         <Route path= "about" element={<About />}>/</Route>
         <Route path= "characters" element={<Character />}>/</Route>
         <Route path= "characters/:id" element={<CharacterDetail />}>/</Route>
