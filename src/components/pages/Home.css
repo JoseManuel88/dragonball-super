@@ -1,0 +1,22 @@
+
+h1{
+    width: 1300px;
+    margin-left: 300px;
+    /* background-color: rgba(41, 223, 153, 0.336); */
+    background: linear-gradient(
+    90deg,
+    rgb(173, 189, 85) 0%,
+    rgb(240, 145, 108) 54%,
+    hwb(276 32% 3% / 0.527) 82%
+  );
+    
+}
+button{
+    width: 170px;
+    height: 60px;
+font-size: x-large;
+font-family:fantasy;
+color: rgb(201, 17, 186);
+background-color: rgb(253, 237, 89);
+margin: 30px;
+}

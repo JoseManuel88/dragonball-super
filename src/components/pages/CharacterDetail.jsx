@@ -20,7 +20,7 @@ const CharacterDetail = () => {
     <div>
         <img src ={character.image} alt={character.name}/>
                 <p>{character.name}</p>
-                <button onClick={()=>navigate("/characters")}>go back</button>
+                {/* <button onClick={()=>navigate("/characters")}>go back</button> */}
     </div>
   )
 }

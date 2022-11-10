@@ -12,14 +12,19 @@
 }
 
 .container{
-    padding: 40px;
+    padding: 60px;
     margin: 0 auto;
     flex-wrap: wrap;
     display: flex;
+    font-family: fantasy;
+    color: rgba(39, 114, 124, 0.986);
+    margin-left: 30px;
 }
 
 img {
     height: 85%;
     width: 85%;
-    object-fit: contain;
+    object-fit:scale-down;
+    margin-top: 10px;
+
 }
